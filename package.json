@@ -4,6 +4,7 @@
   "description": "A script to buteforce and crack the password of a bitcoin wallet",
   "main": "index.js",
   "scripts": {
+    "run": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +28,13 @@
   "bugs": {
     "url": "https://github.com/chase-manning/bitcoin-wallet-cracker/issues"
   },
-  "homepage": "https://github.com/chase-manning/bitcoin-wallet-cracker#readme"
+  "homepage": "https://github.com/chase-manning/bitcoin-wallet-cracker#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.1"
+  }
 }
