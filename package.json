@@ -4,8 +4,7 @@
   "description": "A script to buteforce and crack the password of a bitcoin wallet",
   "main": "index.js",
   "scripts": {
-    "run": "ts-node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
