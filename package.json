@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A script to buteforce and crack the password of a bitcoin wallet",
   "main": "index.js",
-  "scripts": {
-    "run": "ts-node src/index.ts"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chase-manning/bitcoin-wallet-cracker.git"
